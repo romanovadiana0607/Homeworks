@@ -1,0 +1,109 @@
+
+.darkGrey-recktangle{
+    width: 1100px;
+    background:#E6E6E6;
+    padding: 0px;
+    overflow: auto;
+    
+}
+.grey-recktangle{
+     width: 1000px;
+    background: #FFFFFF;
+    margin: 50px;
+    overflow: auto;
+}
+.square{
+    background: #FC8F8F;
+    display: inline-block;
+    
+}
+
+.bigSquare{
+    width: 200px;
+    height: 200px; 
+}
+.firstLine-1{
+margin: 0;
+float: left;
+}
+
+.firstLine-2{
+float: right;
+
+}
+.firstLine-clear{
+    width: 200px;
+    height: 200px; 
+}
+
+
+.lilSquare{
+    width: 100px;
+    height: 100px; 
+    margin-bottom: 100px;
+}
+
+
+.secondLine-1{
+   float: left;
+}
+
+.secondLine-clear{
+float: right;
+}
+
+.secondLine-2{  
+
+}
+
+.secondLine-3{
+    margin-left: 15px; 
+}
+
+.secondLine-4{
+    margin-left: 15px; 
+}
+
+.secondLine-5{
+    margin-left: 15px; 
+}
+
+.thirdLine-clear1{
+float: left;
+}
+
+.thirdLine-clear2{
+    float: right;
+}
+
+.thirdLine-1{
+    
+}
+
+.thirdLine-2{
+    margin-left: 15px;
+}
+
+.thirdLine-3{
+    
+}
+
+.thirdLine-4{
+    margin-left: 15px;
+    
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin-top: 63px;
+
+}
+
+h2{
+    font-size: 36px;
+    margin-top: 31px;
+    color: white;
+    text-align: center;
+}
