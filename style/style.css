@@ -1,109 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
 
-.darkGrey-recktangle{
-    width: 1100px;
-    background:#E6E6E6;
-    padding: 0px;
-    overflow: auto;
-    
+ol,
+ul {
+    list-style: none;
 }
-.grey-recktangle{
-     width: 1000px;
-    background: #FFFFFF;
-    margin: 50px;
-    overflow: auto;
+
+a {
+    text-decoration: none;
 }
-.square{
-    background: #FC8F8F;
+
+
+
+.container {
+    max-width: 1016px;
+    margin: auto;
+}
+
+.header-wrap {
+    display: flex;
+    margin-top: 79px;
+    justify-content: flex-start;
+}
+
+.menu-item {
     display: inline-block;
     
-}
-
-.bigSquare{
-    width: 200px;
-    height: 200px; 
-}
-.firstLine-1{
-margin: 0;
-float: left;
-}
-
-.firstLine-2{
-float: right;
-
-}
-.firstLine-clear{
-    width: 200px;
-    height: 200px; 
-}
-
-
-.lilSquare{
-    width: 100px;
-    height: 100px; 
-    margin-bottom: 100px;
-}
-
-
-.secondLine-1{
-   float: left;
-}
-
-.secondLine-clear{
-float: right;
-}
-
-.secondLine-2{  
 
 }
 
-.secondLine-3{
-    margin-left: 15px; 
+.menu-item a {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+   
+  
+}
+.menu-item{
+    margin-left: 42px;
+}
+.main-item a {
+    color: #34547A;
+    font-weight: 500;
+    margin-left: 0;
 }
 
-.secondLine-4{
-    margin-left: 15px; 
+.first-screen {
+    margin-top: 160px;
 }
 
-.secondLine-5{
-    margin-left: 15px; 
+.wrap {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
-.thirdLine-clear1{
-float: left;
+.main-heading {
+    font-size: 48px;
+    font-weight: 500px;
+    line-height: 26.25px;
 }
 
-.thirdLine-clear2{
-    float: right;
+.first-text {
+    margin-top: 60px;
+    margin-bottom: 65px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26.25px;
 }
 
-.thirdLine-1{
-    
-}
 
-.thirdLine-2{
-    margin-left: 15px;
-}
-
-.thirdLine-3{
-    
-}
-
-.thirdLine-4{
-    margin-left: 15px;
-    
-}
-
-h1{
-    font-size: 64px;
-    text-align: center;
+.btn a {
+    background: #34547A;
     color: white;
-    margin-top: 63px;
+    font-size: 16px;
+    font-weight: 400px;
+    padding: 25px 41px;
+    display: inline-block;
+}
+
+.second-screen {
+    margin-top: 253px;
+}
+
+.wrap-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 500px;
 
 }
 
-h2{
-    font-size: 36px;
-    margin-top: 31px;
+.second-text {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26.25px;
+}
+
+.projects-screen {
+    margin-top: 100px;
+  /*  margin-left: 200px;*/
+    background: #34547A;
+    padding: 100px 0px;
+}
+
+.wrap-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-lilBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects-heading h3 {
     color: white;
-    text-align: center;
+    font-weight: 500px;
+    font-size: 21px;
+    line-height: 24.61px;
+}
+
+.projects-text p {
+    color: white;
+    font-size: 16px;
+    line-height: 26.25px;
+    font-weight: 400px;
+}
+
+.projects-textContent {
+    margin-left: 23px;
+}
+
+
+.fourth-screen {
+    margin-top: 100px;
+}
+
+.video-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.video-pic {
+    margin-top: 57px;
+}
+
+.footer {
+    background: #34547A;
+    padding: 50px 0px;
+    margin-top: 100px;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-heading {
+    font-size: 21px;
+    line-height: 24.61px;
+    font-weight: 500px;
+    color: white;
+}
+
+.footer-text {
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+    line-height: 21.33px;
+    font-weight: 400px;
+}
+
+
+.play-btn{
+    position: absolute;
+
+}
+
+
+.first-screen .btn a:hover{
+    color: red;
+}
+
+.menu-item{
+    position: relative;
+}
+
+.menu-item::before{
+    content:'';
+    position: absolute;
+    height: 2.5px;
+    width: 0;
+    background: rgb(222, 33, 109);
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+}
+.menu-item:hover::before{
+    width: 100%;
+}
+
+.menu-item.active::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: pink;
+    bottom: 0;
+    left: 0;
 }
