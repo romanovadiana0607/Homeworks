@@ -343,6 +343,17 @@ header .container {
 .impuls-wrap{
     flex-direction: column;
 }
+
+.impuls-image{
+    display: inline-block;
+    padding: 35px 60px 35px 60px;
+    background: #FFFFFF;
+    border-style: solid;
+    border-color: #EFEFEF;
+    border-width: 1px;
+}
+
+
 .special-offersScreen2{
     padding-bottom: 80px;
 }
