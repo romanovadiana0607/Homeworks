@@ -1,0 +1,51 @@
+@media screen and (max-width: 1200px) {
+    .envelopeWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .impuls-list{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .special-offersWrap {
+        justify-content: space-around;
+    }
+
+    .special-offersBlock {
+        width: 100%;
+    }
+    .envelope-block{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-text2{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .envelope-block{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .envelope-image{
+        margin: 0;
+    }
+    .envelope-textContent{
+        width: 100%;
+        text-align: center;
+    }
+    .social-mediaWrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
